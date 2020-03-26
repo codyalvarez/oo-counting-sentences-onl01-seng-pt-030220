@@ -3,10 +3,10 @@ require 'pry'
 class String
 
   def sentence?
-  if "String".end_with? "."
+    "." == end_with? (return true) : (return false)
+  
 
-  else
-    return false
+
   end
 
 
