@@ -3,7 +3,11 @@ require 'pry'
 class String
 
   def sentence?
-  "String".end_with?(".")
+  if String.end_with?(".")
+    true
+  else
+    false
+  end
 
 
   end
