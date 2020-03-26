@@ -4,7 +4,7 @@ class String
 
   def sentence?
     "." == end_with? (return true) : (return false)
-  
+
 
 
   end
